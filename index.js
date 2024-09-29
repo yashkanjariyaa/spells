@@ -2,6 +2,7 @@
 import express from "express";
 import { translate } from "@vitalets/google-translate-api";
 import morgan from "morgan";
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 3000;
